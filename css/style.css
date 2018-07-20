@@ -74,6 +74,13 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+    font-family: Avenir;
+    src: url("/fonts/AvenirLTStd-Book.otf") format("opentype"),
+    	url("/fonts/AvenirLTStd-Light.otf") format("opentype"),
+    	url("/fonts/AvenirLTStd-Roman.otf") format("opentype");
+}
+
 
 /* --- Common Styles ---*/
 
@@ -97,6 +104,7 @@ html * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 /*
 ::-webkit-scrollbar {
 	display: none;
@@ -2449,6 +2457,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	border-color: #5831F5;
 	color: #fff !important;
 	outline:none !important;
+	font-weight: bold;
 }
 
 .algopay-btn:hover{
@@ -2473,7 +2482,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .algopay-box{
 	width: 265px;
-	height: 283px;
+	height: 310px;
 	margin: auto;
 	margin-bottom: 15px;
 	background: #FFFFFF;
@@ -2666,4 +2675,20 @@ textarea:focus, input:focus{
 	margin-bottom: 15px;
 	background: #FFFFFF;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+}
+
+.nowrap{
+	white-space: nowrap;
+}
+
+.l-h-28{
+	line-height: 28px;
+}
+
+.l-h-19{
+	line-height: 19px;
+}
+
+.l-h-21{
+	line-height: 21px;
 }
