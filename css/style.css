@@ -208,7 +208,6 @@ p {
   font-family: 'Avenir', sans-serif;
 	text-transform: capitalize;
 	padding-top: 25px;
-	letter-spacing: 1px;
 	height: 90px;
 	-webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
@@ -372,7 +371,7 @@ p {
 		font-size: 14px;
 		padding-top: 5px;
 		background: linear-gradient(90deg, #5831F5 0%, #26E5FF 100%), #26E5FF;
-		box-shadow: 0px 4px 8px #DADADA;
+		box-shadow: 0px 2px 4px #DADADA;
 		-webkit-transition: all 0.6s;
 		-moz-transition: all 0.6s;
 		-o-transition: all 0.6s;
@@ -1838,7 +1837,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-size: 13px;
 	color: #A1A1A1;
 	line-height: 1.3;
-	margin: 10px 0 30px 0;
+	margin: 0px 0 10px 0;
 }
 
 .footer-text p {
@@ -1846,7 +1845,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-size: 12px;
 	color: #00aeda;
 	line-height: 1.4;
-	margin-top: 10px;
 }
 
 
@@ -2426,29 +2424,23 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .shown{
   display: block;
 }
-.anchor{
-  cursor: pointer !important;
-  color: blue !important;
-  text-decoration: underline !important;
-}
-
 .page-scroll{
 	padding-bottom: 7px !important;
-    padding-top: 7px !important;
+    padding-top: 8px !important;
     display: initial !important;
 }
 
 .selcted_menu{
-	border: 4px solid #FFFFFF;
+	border: 2pt solid #FFFFFF;
     box-sizing: border-box;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .algopay-btn{
-	width: 260px;
-	height: 50px;
+	
+	
 	background: #5831F5;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.59);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.59);
 	border-radius: 50px;
 	font-family: 'Avenir', sans-serif;
 	line-height: normal;
@@ -2458,6 +2450,16 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	color: #fff !important;
 	outline:none !important;
 	font-weight: bold;
+}
+
+.algopay-btn.big_btn{
+	width: 260px;
+	height: 50px;
+}
+
+.algopay-btn.normal_btn{
+	width: 190px;
+	height: 40px;
 }
 
 .algopay-btn:hover{
@@ -2482,11 +2484,11 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .algopay-box{
 	width: 265px;
-	height: 310px;
+	height: 265px;
 	margin: auto;
 	margin-bottom: 15px;
 	background: #FFFFFF;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.17);
 }
 
 .p-t-50{
@@ -2569,6 +2571,8 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .anchor{
 	color: #5831F5 !important;
 	text-decoration: none !important;
+	cursor: pointer !important;
+	font-weight: bold;
 }
 
 .footer_menue{
@@ -2633,9 +2637,9 @@ i {
 
 .algopay_input{
 	background: #FFFFFF;
-    border: 2px solid rgba(218, 218, 218, 0.38);
+    border: 1pt solid rgba(218, 218, 218, 0.38);
     box-sizing: border-box;
-    box-shadow: 2px 3px 5px rgba(218, 218, 218, 0.56);
+    box-shadow: 1px 1px 1px rgba(218, 218, 218, 0.56);
     height: 58px;
     width: 100%;
     font-style: italic;
@@ -2643,9 +2647,9 @@ i {
 
 .algopay_textarea{
 	background: #FFFFFF;
-    border: 2px solid rgba(218, 218, 218, 0.38);
+    border: 1pt solid rgba(218, 218, 218, 0.38);
     box-sizing: border-box;
-    box-shadow: 2px 3px 5px rgba(218, 218, 218, 0.56);
+    box-shadow: 1px 1px 1px rgba(218, 218, 218, 0.56);
     height: 200px;
     width: 100%;
     font-style: italic;
@@ -2691,4 +2695,58 @@ textarea:focus, input:focus{
 
 .l-h-21{
 	line-height: 21px;
+}
+
+.hidden{
+	display: none;
+}
+
+.no_anchor{
+	text-decoration: none;
+	font-size: 13px;
+    color: #A1A1A1;
+    line-height: 1.3;
+}
+
+.no_anchor:hover{
+	text-decoration: none;
+	color: #A1A1A1;
+}
+
+.less-p{
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top{
+	position: absolute !important;
+}
+
+.box_image{
+	width: 48px;
+	height: auto;
+}
+
+.fixed_height{
+	height: 35%;
+}
+
+.w-53{
+	width: 53px !important;
+}
+
+.w-50{
+	width: 50px !important;
+}
+
+.w-65{
+	width: 65px !important;
+}
+
+.w-95{
+	width: 95px !important;
+}
+
+.w-70{
+	width: 70px!important;
 }

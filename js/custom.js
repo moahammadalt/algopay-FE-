@@ -8,22 +8,20 @@ jQuery(function($) {
         var mainbottom = $('#main').offset().top;
 
         // on scroll,
-        $(window).on('scroll',function(){
+        /*$(window).on('scroll',function(){
 
-        // we round here to reduce a little workload
-        stop = Math.round($(window).scrollTop());
-        if(!$('.navbar').hasClass('faq')){
-          if (stop > mainbottom) {
-            $('.navbar').addClass('past-main');
-            $('.navbar').addClass('effect-main')
+          // we round here to reduce a little workload
+          stop = Math.round($(window).scrollTop());
+          if(!$('.navbar').hasClass('faq')){
+            if (stop > mainbottom) {
+              $('.navbar').addClass('past-main');
+              $('.navbar').addClass('effect-main')
+            }
+            else {
+              $('.navbar').removeClass('past-main');
+            }
           }
-          else {
-            $('.navbar').removeClass('past-main');
-          }
-        }
-        
-
-      });
+        });*/
 
 
   // Collapse navbar on click
@@ -119,11 +117,11 @@ $('.counter').counterUp({
     });
 
 
-  $('li a.page-scroll').click(function(){
+  /*$('li a.page-scroll').click(function(){
 
     $('.page-scroll').removeClass('selcted_menu');
     $(this).addClass('selcted_menu');
-  });
+  });*/
 
 
   $('.anchore_lable').click(function(){
