@@ -50,7 +50,7 @@ jQuery(function($) {
       $('#back-top').tooltip('hide');
       $('body,html').animate({
           scrollTop: 0
-      }, 1500);
+      }, 600);
       return false;
     });
 
@@ -87,7 +87,7 @@ jQuery(function($) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 600, 'easeInOutExpo');
         event.preventDefault();
     });
   });

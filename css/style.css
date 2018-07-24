@@ -1342,7 +1342,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app-features {
 	background: #FFFFFF;
-	padding: 100px 0 100px 0;
+	padding: 85px 0 85px 0;
 }
 
 
@@ -2489,6 +2489,11 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	margin-bottom: 15px;
 	background: #FFFFFF;
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.17);
+	transition:all 0.3s ease;
+}
+
+.algopay-box:hover{
+	background: #f2f5f8;
 }
 
 .p-t-50{
@@ -2749,4 +2754,30 @@ textarea:focus, input:focus{
 
 .w-70{
 	width: 70px!important;
+}
+
+.f-s-23{
+	font-size: 23px;
+}
+
+.upwork_logo{
+	width: 92%;
+	height: auto;
+}
+
+.algopay_word{
+	width: 100px;
+	height: auto;
+}
+
+.f-s-26{
+	font-size: 26px;
+}
+
+.f-s-22{
+	font-size: 22px;
+}
+
+.m-b-45{
+	margin-bottom: 45px !important;
 }
