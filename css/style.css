@@ -1909,8 +1909,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 
-
-
 /*----------------------------------------------------
 ------------- All ------------------------------------
 --------------------- Media --------------------------
@@ -1933,7 +1931,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	}
 
 	.form .hero-content {
-		padding: 100px 0 100px 0;
+		padding: 30px 0 100px 0;
 		overflow: hidden;
 	}
 
@@ -2780,4 +2778,9 @@ textarea:focus, input:focus{
 
 .m-b-45{
 	margin-bottom: 45px !important;
+}
+
+#get_access_div{
+	margin-bottom: 100px;
+	margin-top: 100px;
 }

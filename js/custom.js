@@ -132,4 +132,15 @@ $('.counter').counterUp({
       $(this).find('.anchor_sign').removeClass('fa fa-minus').addClass('fa fa-plus');
     }
   });
+
+  $('#get_access').click(function(){
+    
+    var con = 'html,body';
+    
+    $(con).animate({
+        scrollTop: $('#get_access_div').offset().top-150
+    });
+
+  });
+  
 });
