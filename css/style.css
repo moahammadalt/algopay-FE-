@@ -549,8 +549,9 @@ font-family: Arial;
 .form .vendor_bg {
 	padding: 110px 0 0 0;
 
-	background: linear-gradient(rgba(0, 17, 60, 0.48), rgba(0, 17, 60, 0.48)),
-                rgba(0, 17, 60, 0.48) url('../images/vendor.jpg') no-repeat center;
+	background: linear-gradient(rgba(1, 21, 71, 0.44), rgba(0, 38, 133, 0.48)),
+                rgba(8, 45, 141, 0.48) url('../images/vendor.jpg') no-repeat center;
+
     background-size: cover;
 }
 
@@ -591,6 +592,15 @@ font-family: Arial;
 	line-height: 1.5;
 	margin: 0 0 25px 0;
 	width: 80%;
+}
+
+.vendor_bg .hero-content p {
+	font-family: 'Avenir', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	line-height: 1.5;
+	margin: 0 0 25px 0;
+	width: 100% !important;
 }
 
 .form .sub-form {
